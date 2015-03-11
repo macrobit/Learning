@@ -1,12 +1,9 @@
 package primitiveWrapping;
 import java.util.ArrayList;
 
-public class Wrapping {
+class Wrap {
 	public static void main(String[] args){
-		int x = 32;
-		Integer iwrp = new Integer(x);
-		ArrayList<Integer> list = new ArrayList<Integer>();
-		list.add(iwrp);
-		System.out.println(list.get(0));
+		int x = 30;
+		System.out.println(x);
 	}
 }
