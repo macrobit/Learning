@@ -4,7 +4,6 @@ public class MathTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		Math mathObject = new Math();
 		int x = (int)Math.round(42.2);
 		int y = Math.min(22,33);
 		int z = Math.abs(-11);
