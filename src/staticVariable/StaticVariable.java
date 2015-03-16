@@ -2,8 +2,12 @@ package staticVariable;
 
 class Duck {
 	private int size;
+	public static final int LARGESTAGE; // Constant.
 	static int duckCount;
 	
+	static {
+		LARGESTAGE = 10;
+	}
 	public Duck(int s) {
 		size = s;
 		duckCount++;
@@ -38,7 +42,7 @@ class Duck {
 
 }
 
-class staticTest {
+class DuckTest {
 	public static void main(String[] args) {
 // static variables are initialized before any object of that class
 // can be created and any static method of the class runs.

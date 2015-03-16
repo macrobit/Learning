@@ -18,7 +18,7 @@ class Duck {
 	
 	public static void main(String[] args) {
 		Duck d = new Duck(10);
-		System.out.println("Size of duck is " + d.getSize());
+		System.out.println("Size of duck is " + d.getSize());// Static method cannot use non-static method directly.
 		
 	}
 

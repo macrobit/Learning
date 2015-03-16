@@ -2,10 +2,11 @@ package finalThing;
 
 class FinalTest {
 	final int size = 3;
+//	final int x;    // The final instance variable must be initialized.
 	static int val;
 	final static double PI;
 	
-	static {
+	static {  // A static initializer.
 		PI = 3.1415926;
 	}
 	
