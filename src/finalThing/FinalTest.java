@@ -1,7 +1,7 @@
 package finalThing;
 
 class FinalTest {
-	final int size = 3;
+	final int size;
 //	final int x;    // The final instance variable must be initialized.
 	static int val;
 	final static double PI;
@@ -10,10 +10,10 @@ class FinalTest {
 		PI = 3.1415926;
 	}
 	
-//	FinalTest(){
-//		val = 42;
-////		size = 4;
-//	}
+	FinalTest(){
+		val = 42;
+		size = 4;
+	}
 	
 	void foo(final int x){
 		int a = x;
@@ -36,5 +36,7 @@ class Test {
 	public static void main(String[] args){
 		FinalTest t = new FinalTest();
 		t.doMore();
+		t.foo(5);
+		System.out.println(FinalTest.PI);
 	}
 }
