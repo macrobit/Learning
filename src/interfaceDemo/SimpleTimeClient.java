@@ -37,7 +37,7 @@ public class SimpleTimeClient implements TimeClient {
     }
     
     public static void main(String... args) {
-        TimeClient myTimeClient = new SimpleTimeClient();
+        SimpleTimeClient myTimeClient = new SimpleTimeClient();
         System.out.println(myTimeClient.toString());
     }	
 }

@@ -18,6 +18,10 @@ public interface TimeClient {
         }
     }	
     
+    static void print() {
+    	System.out.println("Static method test!!!");
+    }
+    
 	default ZonedDateTime getZonedDateTime(String zoneString) {
 		return ZonedDateTime.of(getLocalDateTime(), getZoneId(zoneString));
 	}
