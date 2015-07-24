@@ -10,7 +10,7 @@ class StaticSuper{
 		System.out.println("super constructor");// run before subclass's constructor 
 	}
 }
-
+//
 public class StaticTests extends StaticSuper {
 	static int rand;
 	
